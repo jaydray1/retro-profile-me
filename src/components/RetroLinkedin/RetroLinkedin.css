@@ -1,20 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
 
-.banner-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2em;
+html, body {
+  background-color: #e7e7ea;
+  font-family: "Roboto", monospace;
+  font-size: 1.13em;
+  font-weight: bold;
 }
 
 img {
-  /* position: relative; */
   height: 60vh;
-  /* filter: grayscale(100%); */
   margin-top: -7.5em;
-  /* border: 2px solid red; */
-   -webkit-filter: hue-rotate(90deg);
+  -webkit-filter: hue-rotate(90deg);
   filter: hue-rotate(60deg);
 }
 
@@ -29,8 +26,8 @@ img:hover {
 
 .button-holder {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  width: 100%;
 }
 
 .main-pro-wrapper {
@@ -38,6 +35,13 @@ img:hover {
   justify-content: space-around;
   margin-top: 2em;
 } 
+
+.below-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 a:link    {
   text-decoration:  none;
@@ -49,13 +53,7 @@ a:link    {
   color:            black;
   } 
 
-@import url("https://fonts.googleapis.com/css?family=Inconsolata");
-html, body {
-  background-color: #e7e7ea;
-  font-family: "Inconsolata", monospace;
-  font-size: 1.13em;
-  font-weight: bold;
-}
+
 
 /* https://codepen.io/firepenguin/pen/KoyLZg */
 
@@ -79,6 +77,11 @@ html, body {
   -moz-transition: all 200ms ease-in-out;
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
+  width: 24em;
+  height: 6em;
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center;
 }
 .btn:before, .btn:after {
   border: 3px #00bcdd solid;
@@ -140,6 +143,7 @@ html, body {
   border-image: linear-gradient(45deg, #44e3ff 0%, #ff66ff 100%);
   border-image-slice: 1;
   color: white;
+  font-family: "Roboto", monospace;
 }
 .cta:before {
   border-image-slice: 1;
@@ -188,5 +192,22 @@ html, body {
 }
 .bg:hover:before, .bg:hover:after {
   background: #101832;
+}
+
+@media only screen and (max-width: 800px) {
+  img {
+    height: 50vh;
+  }
+  .banner-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    align-items: center;
+  }
+
+  .main-pro-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 

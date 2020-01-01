@@ -11,7 +11,7 @@ mainImage = 'https://s3-us-west-1.amazonaws.com/marmot-clone-start/me_cutout.png
         <div className="below-button">
           <a href="https://www.linkedin.com/in/jonmichaeldreher/" target="_blank" rel="noopener noreferrer">
             <button className="btn cta">
-            <span >LinkedIn</span>
+            <span style={{fontSize: '2.5rem'}}>LinkedIn</span>
             </button>
           </a>
         </div>
