@@ -15,8 +15,8 @@ export const RetroProjects = () => {
         </a>
       </div>
       <div className="btn">
-      <a href="https://cranky-hoover-5a469d.netlify.com/" target="_blank" rel="noopener noreferrer">
-          <span className="button-font">Outdoor Gear</span>
+      <a href="https://long-island-7738815626.gtsb.io/" target="_blank" rel="noopener noreferrer">
+          <span className="button-font">Blog</span>
         </a>
       </div>
   </div>
