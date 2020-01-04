@@ -194,14 +194,20 @@ a:link    {
   background: #101832;
 }
 
+.button-font {
+  font-size: 2.5rem;
+}
+
 @media only screen and (max-width: 800px) {
+  
   img {
-    height: 50vh;
+    height: 36vh;
   }
+
   .banner-container {
     display: flex;
     flex-direction: column;
-    margin-top: 0px;
+    margin-top: 52px;
     align-items: center;
   }
 
@@ -209,5 +215,15 @@ a:link    {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .btn {
+    width: 11em;
+    margin-bottom: 2em;
+   }
+
+   .button-font {
+    font-size: 1.8em;
+  }
 }
+
 
