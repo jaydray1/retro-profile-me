@@ -17,7 +17,7 @@ mainImage = 'https://s3-us-west-1.amazonaws.com/marmot-clone-start/me_cutout.png
         </div>
 
         <div className="below-button">
-          <a href="https://drive.google.com/open?id=0B3ROmtwfUntWbE9aTE00TXE4b01kNXFqcTNyMHNNcC1CX2o0" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/0B3ROmtwfUntWbE9aTE00TXE4b01kNXFqcTNyMHNNcC1CX2o0/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button className="btn cta">
               <span className="button-font">Resume</span>
             </button> 
